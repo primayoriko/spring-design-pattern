@@ -1,8 +1,7 @@
-package my.primayoriko.springbasic.builder;
+package my.primayoriko.springbasic.designpattern.builder;
 
 import lombok.*;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

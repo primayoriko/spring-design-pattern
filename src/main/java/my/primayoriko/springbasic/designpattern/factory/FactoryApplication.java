@@ -1,4 +1,4 @@
-package my.primayoriko.springbasic.factory;
+package my.primayoriko.springbasic.designpattern.factory;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
