@@ -1,4 +1,4 @@
-package my.primayoriko.springbasic.designpattern.builder;
+package my.primayoriko.springbasic.designpattern.creational.builder;
 
 import lombok.*;
 

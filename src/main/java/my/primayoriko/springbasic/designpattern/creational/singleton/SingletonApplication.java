@@ -1,4 +1,4 @@
-package my.primayoriko.springbasic.designpattern.singleton;
+package my.primayoriko.springbasic.designpattern.creational.singleton;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

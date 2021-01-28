@@ -1,4 +1,4 @@
-package my.primayoriko.springbasic.designpattern.prototype;
+package my.primayoriko.springbasic.designpattern.creational.prototype;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
