@@ -1,6 +1,7 @@
 package my.primayoriko.springbasic.designpattern.behavioural.facade;
 
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -69,6 +70,7 @@ public class FacadeApplication {
     @SpringBootApplication
     public static class Application {
 
+        @Bean
         public AddressService addressServicePostgre() {
             return new AddressServiceImplPostgre();
         }
@@ -79,7 +81,8 @@ public class FacadeApplication {
         }
 
         @Bean
-        public AddressController addressController(AddressService addressService) {
+        public AddressController addressController(
+                @Qualifier("addressServicePostgre") AddressService addressService) {
             AddressController controller = new AddressController();
             controller.setAddressService(addressService);
             return controller;
