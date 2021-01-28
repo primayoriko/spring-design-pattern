@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  my.primayoriko.springbasic.designpattern.other.dynamicmodule.module.MyModuleConfiguration
